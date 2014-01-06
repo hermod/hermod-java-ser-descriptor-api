@@ -19,7 +19,7 @@ public class ReverseEnumMapTest {
      */
     @Test
     public void testGet() {
-        final ReverseEnumMap<FootballPlayer> map = new ReverseEnumMap<>(FootballPlayer.class);
+        final ReverseEnumMap<FootballPlayer> map = new ReverseEnumMap<FootballPlayer>(FootballPlayer.class);
         assertThat(map.get(1)).isEqualTo(FootballPlayer.GOALKEEPER);
     }
 
